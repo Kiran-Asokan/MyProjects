@@ -1,0 +1,7 @@
+.login{
+    background: rgb(208, 245, 239);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}

@@ -1,0 +1,32 @@
+.contact{
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.account-screen{
+    width: 25%;
+    padding: 10px;
+    color: white;
+}
+
+.account-screen h2{
+    padding: 42px 0;
+    border-bottom: solid 1px;
+}
+
+.contact-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactPeople{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    height: calc(100vh - 141px);
+}

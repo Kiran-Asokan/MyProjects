@@ -1,0 +1,20 @@
+.chat-screen{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('/chatBack.jpg');
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+}
+
+.chat{
+    height: 85%;
+}
+
+.noChat{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}

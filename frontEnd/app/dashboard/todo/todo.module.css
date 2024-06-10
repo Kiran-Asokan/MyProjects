@@ -1,0 +1,71 @@
+.todoWrapper{
+    background-color: rgb(16, 0, 87);
+    width: 50%;
+    display: flex;
+    min-height: 250px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+    padding: 2%;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .todoForm{
+    display: flex;
+    column-gap: 0;
+  }
+.todoFormInput{
+    min-height: 25px;
+    background: bottom;
+    border-color: blanchedalmond;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    width: 70%;
+}
+
+.todoFormButton {
+    background: blanchedalmond;
+    border-style: none;
+    min-width: 70px;
+    border-radius: 1px;
+    width: 30%;
+  }
+
+  .listTodo{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    row-gap: 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+  .listTodo span{
+    border-radius: 2px;
+    text-align: center;
+    background: rgb(116, 3, 190);
+    min-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    align-items: center;
+  }
+  .listTodo div button {
+    padding: 0px;
+    margin: 4px 5px;
+    background: none;
+    border: none;
+  }
+  
+  .strikeList{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 8px;
+  }
+
+  .listTodo::-webkit-scrollbar {
+    width: 1px;
+  }
+

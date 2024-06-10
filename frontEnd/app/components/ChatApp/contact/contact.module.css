@@ -1,0 +1,34 @@
+.chatContact{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    color: white;
+    background-color: rgb(12, 12, 12);
+    padding: 10px 25px;
+    column-gap: 25px;
+}
+.chatContact img{
+    border-radius: 25px;
+}
+
+.contact-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contact img{
+    border-radius: 25px;
+}
+
+.contact:hover{
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+    background-color: rgb(29, 29, 29);
+}

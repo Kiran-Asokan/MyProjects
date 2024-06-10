@@ -1,0 +1,160 @@
+.homePage{
+    display: flex;
+    height: 100vh;
+    background: rgb(12, 12, 12);
+}
+.screen-online{
+    width: 25%;
+    justify-content: center;
+    padding-top: 25px;
+    /* background: rgb(230, 230, 230); */
+    max-height: 100%;
+    color: white;
+}
+.avatardiv{
+    display: flex;
+    justify-content: center
+}
+.online-contact{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.contactList{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    max-height: 450px;
+    overflow-y: auto;
+}
+.contactList div{
+    display: flex;
+    column-gap: 10px;
+    
+}
+.contactList div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chat-screen{
+    width: 50%;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('/chatBack.jpg');
+    background-size: cover; /* Cover the entire element */
+    background-position: center; /* Center the image */
+}
+.account-screen{
+    width: 25%;
+    padding: 10px;
+    color: white;
+}
+
+.account-screen h2{
+    padding: 42px 0;
+    border-bottom: solid 1px;
+}
+
+/* .chat-screen div{
+    display: flex;
+} */
+
+.contact-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contact:hover{
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+    background-color: rgb(29, 29, 29);
+}
+
+.chatDisplay{
+    height: 90%;
+    overflow-y: scroll;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}
+
+.chatDisplayDiv{
+    display: flex;
+}
+.chatDisplayDiv .outMsg{
+    align-self: end;
+}
+
+.chatDisplayin{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+
+.chatDisplayout{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+
+.chatDisplayin div{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(228, 228, 228);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 5% 100%, 5% 10%);
+    padding: 10px;
+    max-width: 75%;
+    border-radius: 0 10px 10px 10px;
+    
+}
+
+
+.chatDisplayout div{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    background: blue;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 10%, 95% 100%, 0% 100%);
+    border-radius: 10px 0 10px 10px;
+    padding: 10px;
+    max-width: 75%;
+}
+
+
+
+.homePage *::-webkit-scrollbar {
+    display: none;
+}
+
+.chatContact{
+    width: 100%;
+    border-bottom: solid 1px;
+    height: 15%;
+    display: flex;
+    background: rgb(0 0 8);
+    color: white;
+}
+
+.chat{
+    height: 85%;
+}
+
+
+.contactActive{
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+}

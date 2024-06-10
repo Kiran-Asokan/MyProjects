@@ -1,0 +1,54 @@
+.loginForm{
+    background: white;
+    width: 530px;
+    height: 630px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column; justify-content: center;
+    
+}
+
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin-top: 25px;
+}
+.formdiv div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formdiv div input{
+    border-radius: 5px;
+    border: solid 1px rgb(58, 57, 59);
+    background: rgb(240, 240, 240);
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.formdiv div button{
+    border-radius: 5px;
+    background: rgb(0, 0, 180);
+    border: solid 1px;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    color: white;
+}
+.formdiv div a{
+    color: rgb(60, 60, 221);
+    text-decoration: underline;
+}
+
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
+

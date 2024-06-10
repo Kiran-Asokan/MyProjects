@@ -1,0 +1,81 @@
+.screen-online{
+    width: 25%;
+    justify-content: center;
+    padding-top: 25px;
+    /* background: rgb(230, 230, 230); */
+    max-height: 100%;
+    color: white;
+}
+
+.avatardiv{
+    display: flex;
+    justify-content: center
+}
+
+.online-contact{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.contact-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.online-contact{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.contactList{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    height: calc(100vh - 220px);
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.contactList div{
+    display: flex;
+    column-gap: 10px;
+    
+}
+.contactList div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactActive{
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+}
+.contactActive img,
+.contact img{
+    border-radius: 25px;
+}
+
+.contact{
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.unreadDot{
+    width: 10px;
+    height: 10px;
+    background-color: red; /* or any color you prefer */
+    border-radius: 50%; /* to make it circular */
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.contact:hover{
+    display: flex;
+    column-gap: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(29, 29, 29);
+}

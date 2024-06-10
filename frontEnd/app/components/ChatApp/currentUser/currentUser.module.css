@@ -1,0 +1,43 @@
+.avatardiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 25px;
+    border-bottom: solid 0.5px;
+}
+
+.avatardiv img{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.contact-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profileControlsBtn{
+    background: none;
+    border-radius: 10px;
+    border: solid 0.5px;
+    border-color: rgb(12, 12, 12);
+    color: white;
+    padding: 0 5px;
+}
+.profileControlsBtn:hover{
+    border-radius: 10px;
+    border: solid 0.5px;
+    border-color: white;
+}
+
+.ImgWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .profileControls{
+    
+} */

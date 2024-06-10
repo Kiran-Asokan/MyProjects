@@ -1,0 +1,53 @@
+.chatDisplay{
+    height: 90%;
+    overflow-y: scroll;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    scrollbar-width: none;
+}
+
+.chatDisplayDiv{
+    display: flex;
+}
+.chatDisplayDiv .outMsg{
+    align-self: end;
+}
+
+.chatDisplayin{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+
+.chatDisplayout{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+
+.chatDisplayin div{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(228, 228, 228);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 5% 100%, 5% 10%);
+    padding: 10px;
+    max-width: 75%;
+    border-radius: 0 10px 10px 10px;
+    
+}
+
+
+.chatDisplayout div{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    background: blue;
+    clip-path: polygon(0% 0%, 100% 0%, 95% 10%, 95% 100%, 0% 100%);
+    border-radius: 10px 0 10px 10px;
+    padding: 10px;
+    max-width: 75%;
+}

@@ -1,0 +1,33 @@
+.chatinput{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 25px;
+    align-items: center;
+    border-top: solid 1px;
+    background: rgb(0 0 8);
+}
+
+
+
+.chatinput  > :first-child {
+    width: 90%;
+    
+}
+
+.chatinput  > :first-child input{
+    width: 100%;
+    border: solid 0.5px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.chatinput  > :last-child {
+    width: 10%;
+}
+
+/* .sendBtn img{
+
+} */
